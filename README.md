@@ -1,8 +1,8 @@
-# VibeFlo: Advanced Focus & Study App
+# MindForge: Advanced Focus & Study App
 
-VibeFlo is a comprehensive study and productivity application centered around the Pomodoro Technique, designed to help users maximize focus, track progress, and create the perfect study environment. With advanced features like customizable timers, integrated to-do lists, ambient music control, and detailed productivity analytics, VibeFlo transforms how you study, work, and focus.
+MindForge is a comprehensive study and productivity application centered around the Pomodoro Technique, designed to help users maximize focus, track progress, and create the perfect study environment. With advanced features like customizable timers, integrated to-do lists, ambient music control, and detailed productivity analytics, MindForge transforms how you study, work, and focus.
 
-![VibeFlo Dashboard](docs/images/dashboard.png)
+![MindForge Dashboard](docs/images/dashboard.png)
 
 ## Features Showcase
 
@@ -71,7 +71,7 @@ Secure login and profile management that remembers your settings across sessions
 
 ## Security & Authentication
 
-VibeFlo implements robust security protocols to ensure your data remains safe:
+MindForge implements robust security protocols to ensure your data remains safe:
 
 - **JWT Authentication**: Secure token-based authentication for all requests
 - **Role-Based Access Control**: Protected routes and user-specific content
@@ -90,15 +90,15 @@ The application follows a modern architecture pattern:
 
 ## System Architecture
 
-VibeFlo follows a comprehensive full-stack architecture with clear separation of concerns and focused components.
+MindForge follows a comprehensive full-stack architecture with clear separation of concerns and focused components.
 
-![VibeFlo System Architecture](docs/images/VibeFlo_System_Architecture_Updated_v2.svg)
+![MindForge System Architecture](docs/images/MindForge_System_Architecture_Updated_v2.svg)
 
-### VibeFlo System Architecture Flow Description
+### MindForge System Architecture Flow Description
 
 #### Overview
 
-VibeFlo is a full-stack web application designed to enhance productivity through the Pomodoro technique while integrating a customizable music experience. The system leverages a structured, scalable architecture with a clear separation of concerns between the frontend, backend, database, and third-party integrations.
+MindForge is a full-stack web application designed to enhance productivity through the Pomodoro technique while integrating a customizable music experience. The system leverages a structured, scalable architecture with a clear separation of concerns between the frontend, backend, database, and third-party integrations.
 
 #### 1️⃣ Frontend to Backend Communication
 
@@ -152,7 +152,7 @@ VibeFlo is a full-stack web application designed to enhance productivity through
 #### 4️⃣ Deployment Flow
 
 **Hosting**
-- VibeFlo is hosted on Render for both the frontend and backend.
+- MindForge is hosted on Render for both the frontend and backend.
 
 **Database Hosting**
 - PostgreSQL is used as the main database, managed through node-postgres.
@@ -223,7 +223,7 @@ REACT_APP_YOUTUBE_API_KEY=your_youtube_api_key
 #### Server (.env)
 ```
 PORT=5001
-DATABASE_URL=postgresql://user:password@localhost:5432/vibeflo
+DATABASE_URL=postgresql://user:password@localhost:5432/MindForge
 JWT_SECRET=your_jwt_secret
 ```
 
@@ -246,8 +246,8 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## Acknowledgements
 
 - The Pomodoro Technique was developed by Francesco Cirillo
-- Special thanks to all contributors who have helped make VibeFlo better 
+- Special thanks to all contributors who have helped make MindForge better 
 
 ## Demo Video
 
-Watch the demo video to see VibeFlo in action: [Watch Video](https://www.loom.com/share/ccf4160871a4473986ac125069fe3eba?sid=557d9b0d-6061-4b1d-aad3-eadcf56a676f) 
+Watch the demo video to see MindForge in action: [Watch Video](https://www.loom.com/share/ccf4160871a4473986ac125069fe3eba?sid=557d9b0d-6061-4b1d-aad3-eadcf56a676f) 
